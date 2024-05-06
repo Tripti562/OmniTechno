@@ -10,3 +10,19 @@
 p{
   margin: 0;
 }
+.boxmail{
+  background-color: transparent;
+  width: 80%;
+  /* padding: 1rem; */
+  /* font-size: 1rem; */
+  border: none;
+}
+input[type="email"] {
+  outline: none;
+}
+.circle{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: red;
+}

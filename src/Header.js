@@ -36,7 +36,7 @@ export default function Header() {
           </ul>
         </div>
         <button
-          class="btn btn-primary rounded-0 fw-medium mainblue"
+          class="btn btn-primary rounded-0 fw-medium border border-0 mainblue"
           type="submit"
         >
           Register
