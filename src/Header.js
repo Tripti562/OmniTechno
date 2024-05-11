@@ -1,6 +1,8 @@
+import Services from "./Services";
+
 export default function Header() {
   return (
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar shadow navbar-expand-lg top">
       <div class="container d-flex flex-row justify-content-center align-items-center">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png"></img>
@@ -14,7 +16,7 @@ export default function Header() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
+              <a class="nav-link text-dark" href="#services">
                 Services
               </a>
             </li>
@@ -24,12 +26,12 @@ export default function Header() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
+              <a class="nav-link text-dark" href="#career">
                 Career
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
+              <a class="nav-link text-dark" href="#contact">
                 Contact
               </a>
             </li>

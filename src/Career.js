@@ -2,7 +2,7 @@
 
 export default function Career(){
     return(
-        <section className="career">
+        <section id="career" className="career">
             <div className="back container">
                 <p className="fw-bold fs-2 text-center my-2">
                 Want To Develop Your Career With Us 

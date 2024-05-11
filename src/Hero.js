@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="herosection herobgcolor">
+    <section className="herosection herobgcolor mt-4">
       <div className="container pt-5 pb-5 d-flex flex-wrap justify-content-around">
         <img src="images/heroimg.png"></img>
         <div className="d-flex flex-wrap flex-column justify-content-center">

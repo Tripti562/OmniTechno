@@ -1,6 +1,14 @@
 .mainblue{
   background-color: #191F6B;
 }
+.top{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
 .mainbluecolor{
   color: #191F6B;
 }
@@ -34,11 +42,50 @@ input[type="email"] {
 }
 
 .career {
-  padding-top: 50px;
-  height: 250px;
+  padding-top: 5.5rem;
+  height: 350px;
   /* background-image: linear-gradient(to top, #1F234E , yellow); */
   background-image: linear-gradient(#321F234E, white   , #321F234E);
 }
-.point{
+.point, .points{
   cursor: pointer;
+  transition: all linear .5s;
+}
+.point:hover{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.points:hover{
+  transform: scale(1.15);
+}
+.grcolor{
+  color: #9C9C9C;
+}
+.height{
+  height: 240px;
+  overflow: hidden;
+}
+/* .mar{
+  margin-top: -100px;
+} */
+a{
+  text-decoration: none;
+  
+  /* color: white; */
+  /* color: #191F6B; */
+}
+li{
+  list-style: none;
+  
+}
+a li{
+  color: white;
+  
+}
+.hei{
+  width: 60%;
+  /* border: 1px solid red; */
+}
+.lastfoot{
+  background-color: #131126;
 }

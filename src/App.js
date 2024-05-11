@@ -7,6 +7,9 @@ import Hero from './Hero';
 import About from './About';
 import Career from './Career';
 import Services from './Services';
+import Testimonials from './Testimonials';
+import FooterA from './FooterA';
+import FooterB from './FooterB';
 
 function App() {
   return (
@@ -14,8 +17,12 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <About></About>
-      <Career></Career>
+      
       <Services></Services>
+      <Career></Career>
+      <Testimonials></Testimonials>
+      <FooterA></FooterA>
+      <FooterB></FooterB>
     </div>
   );
 }
