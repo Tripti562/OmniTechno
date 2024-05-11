@@ -74,6 +74,11 @@ a{
   /* color: white; */
   /* color: #191F6B; */
 }
+.heisd{
+  height: 25rem;
+  border: 1px solid red;
+  overflow: hidden;
+}
 li{
   list-style: none;
   

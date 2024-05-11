@@ -13,7 +13,7 @@ export default function Services() {
           </p>
           <p className="fs-2 fw-bold mainbluecolor">Fully Dedicated Services</p>
         </div>
-        <div className="row my-3">
+        <div className="row  my-3">
           <div className="col-sm-3 col-md-3">
             <Card
               img="images/webd.png"
