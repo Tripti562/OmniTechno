@@ -75,8 +75,8 @@ a{
   /* color: #191F6B; */
 }
 .heisd{
-  height: 25rem;
-  border: 1px solid red;
+  height: 22rem;
+  /* border: 1px solid red; */
   overflow: hidden;
 }
 li{
@@ -93,4 +93,10 @@ a li{
 }
 .lastfoot{
   background-color: #131126;
+}
+@media (max-width: 768px) {
+  .heisd{
+    height: 16rem;
+    overflow: hidden;
+  }
 }

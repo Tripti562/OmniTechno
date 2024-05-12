@@ -51,7 +51,7 @@ export default function About() {
                 type="submit"
               >
                 <div className="circle me-2"></div>
-                Business Applicationn
+                Business Application
               </div>
             </div>
           </div>
