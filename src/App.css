@@ -7,7 +7,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .mainbluecolor{
   color: #191F6B;
@@ -84,8 +84,7 @@ li{
   
 }
 a li{
-  color: white;
-  
+  color: white; 
 }
 .hei{
   width: 60%;
@@ -94,9 +93,104 @@ a li{
 .lastfoot{
   background-color: #131126;
 }
+.svg{
+  height: 30px;
+  width: 30px;
+}
+.ham-menu{
+  position: relative;
+  display: inline-block;
+}
+.menu-links{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  /* width: fit-content; */
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links li{
+  list-style: none;
+}
+.menu-links a{
+  display: block;
+  padding: 10px;
+  /* text-align: center; */
+  /* font-size: 1.5rem; */
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links.show{
+  max-height: 300px;
+}
+.menu{
+  display: none;
+}
+.menu-links{
+  display: none;
+}
+.menu-links{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  /* width: fit-content; */
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links li{
+  list-style: none;
+}
+.menu-links a{
+  display: block;
+  padding: 10px;
+  /* text-align: center; */
+  /* font-size: 1.5rem; */
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links.show{
+  max-height: 300px;
+}
 @media (max-width: 768px) {
   .heisd{
     height: 16rem;
     overflow: hidden;
+  }
+}
+@media (max-width: 510px) {
+  .small-hero{
+    height: 285px;
+    width: 280px;
+  }
+  
+}
+@media (max-width: 993px) {
+  /* nav, .donate{
+      display: none;
+  } */
+  .register{
+      display: none;
+  }
+  .top{
+    position: static;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid red;
+  }
+  .menu{
+      display: block;
+      cursor: pointer;
+      color: black;
+  }
+  .menu-links{
+      display: block;
   }
 }

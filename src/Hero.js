@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <section className="herosection herobgcolor mt-4">
       <div className="container pt-5 pb-5 d-flex flex-wrap justify-content-around">
-        <img src="images/heroimg.png"></img>
+        <img className="small-hero" src="images/heroimg.png"></img>
         <div className="d-flex flex-wrap flex-column justify-content-center">
-          <p className="mainbluecolor fw-bold fs-1 mb-4 lh-sm">
+          <p className="mainbluecolor fw-bold fs-1 mb-4 lh-sm ">
             Powerful Digital IT<br></br> Service for Your<br></br> Business
           </p>
-          <p className="fs-4">
+          <p className="fs-5 small-title">
             Powerful IT solutions, empowering clients to thrive in the<br></br>{" "}
             digital landscape with unparalleled success.
           </p>
