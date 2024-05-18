@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="my-5">
-      <div className="container d-flex flex-wrap justify-content-evenly">
+      <div id="about" className="container d-flex flex-wrap justify-content-evenly">
         <div className="">
           <p className="fs-5 fw-bold mainbluecolor">
             ABOUT OUR{" "}

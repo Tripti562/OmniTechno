@@ -1,196 +1,143 @@
-.mainblue{
-  background-color: #191F6B;
+.mainblue {
+  background-color: #191f6b;
 }
-.top{
+.top {
   position: fixed;
   background-color: white;
   top: 0;
   width: 100%;
   z-index: 1;
-  border: 1px solid red;
 }
-.mainbluecolor{
-  color: #191F6B;
+.mainbluecolor {
+  color: #191f6b;
 }
-.herobgcolor{
-  background-color: #F2FFF6;
+.herobgcolor {
+  background-color: #f2fff6;
 }
-p{
+p {
   margin: 0;
 }
-.boxmail{
+.boxmail {
   background-color: transparent;
   width: 80%;
-  /* padding: 1rem; */
-  /* font-size: 1rem; */
   border: none;
 }
 input[type="email"] {
   outline: none;
 }
-.circle{
+.circle {
   height: 25px;
   width: 25px;
   border-radius: 50%;
   background-color: red;
 }
-.view{
-  border: 1px solid #191F6B;
+.view {
+  border: 1px solid #191f6b;
 }
-.cv{
-  border: 1px solid #191F6B;
+.cv {
+  border: 1px solid #191f6b;
 }
 
 .career {
   padding-top: 5.5rem;
   height: 350px;
   /* background-image: linear-gradient(to top, #1F234E , yellow); */
-  background-image: linear-gradient(#321F234E, white   , #321F234E);
+  background-image: linear-gradient(#321f234e, white, #321f234e);
 }
-.point, .points{
+.point,
+.points {
   cursor: pointer;
-  transition: all linear .5s;
+  transition: all linear 0.5s;
 }
-.point:hover{
+.point:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
-.points:hover{
+.points:hover {
   transform: scale(1.15);
 }
-.grcolor{
-  color: #9C9C9C;
+.grcolor {
+  color: #9c9c9c;
 }
-.height{
+.height {
   height: 240px;
   overflow: hidden;
 }
 /* .mar{
   margin-top: -100px;
 } */
-a{
+a {
   text-decoration: none;
-  
+
   /* color: white; */
   /* color: #191F6B; */
 }
-.heisd{
+.heisd {
   height: 22rem;
   /* border: 1px solid red; */
   overflow: hidden;
 }
-li{
+li {
   list-style: none;
-  
 }
-a li{
-  color: white; 
+a li {
+  color: white;
 }
-.hei{
+.hei {
   width: 60%;
   /* border: 1px solid red; */
 }
-.lastfoot{
+.lastfoot {
   background-color: #131126;
 }
-.svg{
+.svg {
   height: 30px;
   width: 30px;
 }
-.ham-menu{
-  position: relative;
-  display: inline-block;
-}
-.menu-links{
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: white;
-  /* width: fit-content; */
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
-}
-.menu-links li{
-  list-style: none;
-}
-.menu-links a{
-  display: block;
-  padding: 10px;
-  /* text-align: center; */
-  /* font-size: 1.5rem; */
-  color: black;
-  text-decoration: none;
-  transition: all 0.3 ease-in-out;
-}
-.menu-links.show{
-  max-height: 300px;
-}
-.menu{
+
+#menu {
   display: none;
 }
-.menu-links{
+.menu-links {
   display: none;
-}
-.menu-links{
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: white;
-  /* width: fit-content; */
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
-}
-.menu-links li{
-  list-style: none;
-}
-.menu-links a{
-  display: block;
-  padding: 10px;
-  /* text-align: center; */
-  /* font-size: 1.5rem; */
-  color: black;
-  text-decoration: none;
-  transition: all 0.3 ease-in-out;
-}
-.menu-links.show{
-  max-height: 300px;
+  background-color: black;
 }
 @media (max-width: 768px) {
-  .heisd{
+  .heisd {
     height: 16rem;
     overflow: hidden;
   }
 }
 @media (max-width: 510px) {
-  .small-hero{
+  .small-hero {
     height: 285px;
     width: 280px;
   }
-  
 }
 @media (max-width: 993px) {
   /* nav, .donate{
       display: none;
   } */
-  .register{
-      display: none;
+  .register {
+    display: none;
   }
-  .top{
-    position: static;
-    background-color: white;
+  #menu {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-links {
+    display: block;
+    width: 120px;
+    height: 190px;
+    position: absolute;
     top: 0;
-    width: 100%;
-    z-index: 1;
-    border: 1px solid red;
+    left: 0;
+    background-color: #191f6b;
+    transform: translateX(-100%);
+    transition: all linear 0.3s;
   }
-  .menu{
-      display: block;
-      cursor: pointer;
-      color: black;
+  #menu-links.actives {
+    transform: translateX(0);
   }
-  .menu-links{
-      display: block;
-  }
+  
 }

@@ -14,35 +14,35 @@ export default function FooterA() {
           </div>
           <div className="d-flex flex-wrap justify-content-between">
             <ul>
-              <a href="#">
+              <a href="#about">
                 <li className="mb-3">About</li>
               </a>
-              <a href="#">
+              <a href="#services">
                 <li className="mb-3">Services</li>
               </a>
-              <a href="#">
+              <a href="#contact">
                 <li className="mb-3">Privacy Policy</li>
               </a>
             </ul>
-            <ul>
-              <a href="#">
+            <ul className="me-4">
+              <a href="#career">
                 <li className="mb-3">Career</li>
               </a>
-              <a href="#">
+              <a href="#career">
                 <li className="mb-3">Drop Your CV</li>
               </a>
-              <a href="#">
+              <a href="#contact">
                 <li className="mb-3">Current Opening</li>
               </a>
             </ul>
             <ul>
-              <a href="#">
+              <a href="#contact">
                 <li className="mb-3">Contact Us</li>
               </a>
-              <a href="#">
+              <a href="#contact">
                 <li className="mb-3">Terms of Use</li>
               </a>
-              <a href="#">
+              <a href="#contact">
                 <li className="mb-3">News & Events</li>
               </a>
             </ul>
